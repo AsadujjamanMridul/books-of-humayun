@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:orientation="vertical"
+
+    tools:context=".fragment.AuthorFragment">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <!-- Header Section Starts Here  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:cardCornerRadius="80dp"
+                        app:cardElevation="10dp"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/author"
+                            android:scaleType="centerCrop" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="328dp"
+                        android:layout_height="165dp"
+                        app:cardBackgroundColor="@color/science"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        android:layout_marginTop="45dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="61dp"
+                            android:text="Humayun Ahmed"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebsemibold"
+                            android:textSize="15dp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:text="Novelist  |  Dramatist  |  Songwriter"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumweblight"
+                            android:textSize="12sp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="118dp"
+                            android:text="Filmmaker  |  Screenwriter  |  Lecturer  |  Scholar"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumweblight"
+                            android:textSize="12sp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <!-- Header Section Ends Here  -->
+
+
+            <!-- Info Section Starts Here  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="366dp">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="328dp"
+                        android:layout_height="350dp"
+                        app:cardBackgroundColor="@color/science"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="5dp"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Born:"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebsemibold"
+                            android:textSize="12sp"
+                            android:layout_marginTop="47dp"
+                            android:layout_marginStart="36dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/born_string"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebregular"
+                            android:textSize="12sp"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginStart="120dp"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Died:"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebsemibold"
+                            android:textSize="12sp"
+                            android:layout_marginTop="121dp"
+                            android:layout_marginStart="36dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/died_string"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebregular"
+                            android:textSize="12sp"
+                            android:layout_marginTop="115dp"
+                            android:layout_marginStart="120dp"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Education:"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebsemibold"
+                            android:textSize="12sp"
+                            android:layout_marginTop="172dp"
+                            android:layout_marginStart="36dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/edu_string"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebregular"
+                            android:textSize="12sp"
+                            android:layout_marginTop="172dp"
+                            android:layout_marginStart="120dp"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Alma Mater:"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebsemibold"
+                            android:textSize="12sp"
+                            android:layout_marginTop="231dp"
+                            android:layout_marginStart="36dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/alma_string"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebregular"
+                            android:textSize="12sp"
+                            android:layout_marginTop="216dp"
+                            android:layout_marginStart="120dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Awards:"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebsemibold"
+                            android:textSize="12sp"
+                            android:layout_marginTop="298dp"
+                            android:layout_marginStart="36dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/award_string"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/titilliumwebregular"
+                            android:textSize="12sp"
+                            android:layout_marginTop="290dp"
+                            android:layout_marginStart="120dp"
+                            />
+
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+
+            <!-- Info Section Ends Here  -->
+
+
+            <!-- Music Section Starts Here  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:gravity="center_horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="328dp"
+                    android:layout_height="380dp"
+                    app:cardBackgroundColor="@color/science"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="10dp" >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/titilliumwebbold"
+                        android:text="Music:"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/titilliumwebregular"
+                        android:layout_marginHorizontal="20dp"
+                        android:text="@string/music_string"
+                        android:layout_marginTop="55dp"
+                        />
+
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <!-- Music Section Ends Here  -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="405dp"
+                android:gravity="center_horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="328dp"
+                    android:layout_height="389dp"
+                    app:cardBackgroundColor="@color/science"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="10dp" >
+
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/titilliumwebbold"
+                                android:text="Books:"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/tatsambook"
+                                android:text="@string/books_string"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginTop="20dp"/>
+
+                        </LinearLayout>
+
+
+                    </androidx.core.widget.NestedScrollView>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

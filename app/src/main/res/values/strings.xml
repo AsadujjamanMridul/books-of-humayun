@@ -1,0 +1,649 @@
+<resources>
+    <string name="app_name">Books Of Humayun</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="himu">Himu</string>
+    <string name="misir_ali">Misir Ali</string>
+    <string name="shuvro">Shuvro</string>
+
+
+    <string-array name="himu_book_name">
+        <item>ময়ুরাক্ষী</item>
+        <item>দরজার ওপাশে</item>
+        <item>হিমু</item>
+        <item>পারাপার</item>
+        <item>এবং হিমু</item>
+        <item>হিমুর হাতে কয়েকটি নীলপদ্ম</item>
+        <item>হিমুর দ্বিতীয় প্রহর</item>
+        <item>হিমুর রূপালী রাত্রি</item>
+        <item>একজন হিমু কয়েকটি ঝিঁঝিঁ পোকা</item>
+        <item>তোমাদের এই নগরে</item>
+        <item>চলে যায় বসন্তের দিন</item>
+        <item>সে আসে ধীরে</item>
+        <item>আঙুল কাটা জগলু</item>
+        <item>হলুদ হিমু, কালো র‍্যাব</item>
+        <item>আজ হিমুর বিয়ে</item>
+        <item>হিমু রিমান্ডে</item>
+        <item>হিমুর মধ্যদুপুর</item>
+        <item>হিমুর নীল জোছনা</item>
+        <item>হিমুর আছে জল</item>
+        <item>হিমু এবং একটি রাশিয়ান পরী</item>
+        <item>হিমু এবং হার্ভার্ড পিএইচডি বল্টু ভাই</item>
+    </string-array>
+    <string-array name="himu_publish_year">
+        <item>প্রকাশকাল : ১৯৯০</item>
+        <item>প্রকাশকাল : ১৯৯২</item>
+        <item>প্রকাশকাল : ১৯৯৩</item>
+        <item>প্রকাশকাল : ১৯৯৪</item>
+        <item>প্রকাশকাল : ১৯৯৫</item>
+        <item>প্রকাশকাল : ১৯৯৬</item>
+        <item>প্রকাশকাল : ১৯৯৭</item>
+        <item>প্রকাশকাল : ১৯৯৮</item>
+        <item>প্রকাশকাল : ১৯৯৯</item>
+        <item>প্রকাশকাল : ২০০০</item>
+        <item>প্রকাশকাল : ২০০২</item>
+        <item>প্রকাশকাল : ২০০৩</item>
+        <item>প্রকাশকাল : ২০০৫</item>
+        <item>প্রকাশকাল : ২০০৬</item>
+        <item>প্রকাশকাল : ২০০৭</item>
+        <item>প্রকাশকাল : ২০০৮</item>
+        <item>প্রকাশকাল : ২০০৯</item>
+        <item>প্রকাশকাল : ২০১০</item>
+        <item>প্রকাশকাল : ২০১১</item>
+        <item>প্রকাশকাল : ২০১১</item>
+        <item>প্রকাশকাল : ২০১১</item>
+    </string-array>
+    <string-array name="himu_page_number">
+        <item>পৃষ্ঠাসংখ্যা : ৭৯</item>
+        <item>পৃষ্ঠাসংখ্যা : ১২০</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৬</item>
+        <item>পৃষ্ঠাসংখ্যা : ১০২</item>
+        <item>পৃষ্ঠাসংখ্যা : ৮০</item>
+        <item>পৃষ্ঠাসংখ্যা : ১২৬</item>
+        <item>পৃষ্ঠাসংখ্যা : ১২৮</item>
+        <item>পৃষ্ঠাসংখ্যা : ১৪২</item>
+        <item>পৃষ্ঠাসংখ্যা : ১০৪</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৫</item>
+        <item>পৃষ্ঠাসংখ্যা : ১০৪</item>
+        <item>পৃষ্ঠাসংখ্যা : ৮৮</item>
+        <item>পৃষ্ঠাসংখ্যা : ১১২</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৫</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৫</item>
+        <item>পৃষ্ঠাসংখ্যা : ৮৮</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৫</item>
+        <item>পৃষ্ঠাসংখ্যা : ৮০</item>
+        <item>পৃষ্ঠাসংখ্যা : ৭৯</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৮</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৫</item>
+    </string-array>
+    <string-array name="himu_book_name_english">
+        <item>moyurakkhi</item>
+        <item>dorjaropashe</item>
+        <item>himu</item>
+        <item>parapar</item>
+        <item>ebonghimu</item>
+        <item>himurhaatekoyektinilpoddo</item>
+        <item>himurditiyoprohor</item>
+        <item>himurrupaliratri</item>
+        <item>ekjonhimukoyektijhijhipoka</item>
+        <item>tomadereinogore</item>
+        <item>cholejayboshonterdin</item>
+        <item>seashedhire</item>
+        <item>angulkatajoglu</item>
+        <item>holudhimukalorab</item>
+        <item>ajhimurbiye</item>
+        <item>himurimande</item>
+        <item>himurmoddhodupur</item>
+        <item>himurniljosna</item>
+        <item>himurachejol</item>
+        <item>himuebongektirussianpori</item>
+        <item>himuebongharvardphdboltubhai</item>
+    </string-array>
+    <string-array name="himu_chapters">
+        <item>8</item>
+        <item>11</item>
+        <item>13</item>
+        <item>11</item>
+        <item>7</item>
+        <item>13</item>
+        <item>11</item>
+        <item>14</item>
+        <item>9</item>
+        <item>10</item>
+        <item>9</item>
+        <item>9</item>
+        <item>12</item>
+        <item>11</item>
+        <item>8</item>
+        <item>8</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>10</item>
+        <item>7</item>
+    </string-array>
+
+
+    <string-array name="shuvro_book_name">
+        <item>দারুচিনি দ্বীপ</item>
+        <item>মেঘের ছায়া</item>
+        <item>রূপালী দ্বীপ</item>
+        <item>শুভ্র</item>
+        <item>এই শুভ্র এই</item>
+        <item>শুভ্র গেছে বনে</item>
+    </string-array>
+    <string-array name="shuvro_publish_year">
+        <item>প্রকাশকাল : ১৯৯১</item>
+        <item>প্রকাশকাল : ১৯৯৩</item>
+        <item>প্রকাশকাল : ১৯৯৪</item>
+        <item>প্রকাশকাল : ২০০০</item>
+        <item>প্রকাশকাল : ২০০৩</item>
+        <item>প্রকাশকাল : ২০১০</item>
+    </string-array>
+    <string-array name="shuvro_page_number">
+        <item>পৃষ্ঠাসংখ্যা : ৯৬</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯২</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৫</item>
+        <item>পৃষ্ঠাসংখ্যা : ২৪০</item>
+        <item>পৃষ্ঠাসংখ্যা : ১১২</item>
+        <item>পৃষ্ঠাসংখ্যা : ১৪৪</item>
+    </string-array>
+    <string-array name="shuvro_book_name_english">
+        <item>daruchinidip</item>
+        <item>megherchaya</item>
+        <item>rupalidip</item>
+        <item>shuvro</item>
+        <item>eishuvroei</item>
+        <item>shuvrogechebone</item>
+    </string-array>
+    <string-array name="shuvro_chapters">
+        <item>13</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+
+    <string-array name="misir_book_name">
+        <item>দেবী</item>
+        <item>নিশীথিনী</item>
+        <item>অন্যভুবন</item>
+        <item>নিষাদ</item>
+        <item>বৃহন্নলা</item>
+        <item>ভয়</item>
+        <item>বিপদ</item>
+        <item>অনীশ</item>
+        <item>মিসির আলির অমীমাংসিত রহস্য</item>
+        <item>আমি এবং আমরা</item>
+        <item>তন্দ্রাবিলাস</item>
+        <item>আমিই মিসির আলি</item>
+        <item>বাঘবন্দি মিসির আলি</item>
+        <item>হরতন ইশকাপন</item>
+        <item>কহেন কবি কালিদাস</item>
+        <item>মিসির আলির চশমা</item>
+        <item>মিসির আলি! আপনি কোথায়?</item>
+        <item>মিসির আলি Unsolved</item>
+        <item>পুফি</item>
+        <item>যখন নামিবে আঁধার</item>
+    </string-array>
+    <string-array name="misir_publish_year">
+        <item>প্রকাশকাল : ১৯৮৫</item>
+        <item>প্রকাশকাল : ১৯৮৬</item>
+        <item>প্রকাশকাল : ১৯৮৭</item>
+        <item>প্রকাশকাল : ১৯৮৯</item>
+        <item>প্রকাশকাল : ১৯৮৯</item>
+        <item>প্রকাশকাল : ১৯৯১</item>
+        <item>প্রকাশকাল : ১৯৯১</item>
+        <item>প্রকাশকাল : ১৯৯২</item>
+        <item>প্রকাশকাল : ১৯৯৩</item>
+        <item>প্রকাশকাল : ১৯৯৩</item>
+        <item>প্রকাশকাল : ১৯৯৫</item>
+        <item>প্রকাশকাল : ২০০০</item>
+        <item>প্রকাশকাল : ২০০১</item>
+        <item>প্রকাশকাল : ২০০৩</item>
+        <item>প্রকাশকাল : ২০০৫</item>
+        <item>প্রকাশকাল : ২০০৮</item>
+        <item>প্রকাশকাল : ২০০৯</item>
+        <item>প্রকাশকাল : ২০০৯</item>
+        <item>প্রকাশকাল : ২০১১</item>
+        <item>প্রকাশকাল : ২০১১</item>
+    </string-array>
+    <string-array name="misir_page_number">
+        <item>পৃষ্ঠাসংখ্যা : ৮০</item>
+        <item>পৃষ্ঠাসংখ্যা : ১০১</item>
+        <item>পৃষ্ঠাসংখ্যা : ৬৪</item>
+        <item>পৃষ্ঠাসংখ্যা : ৭২</item>
+        <item>পৃষ্ঠাসংখ্যা : ৪৭</item>
+        <item>পৃষ্ঠাসংখ্যা : ৮০</item>
+        <item>পৃষ্ঠাসংখ্যা : ৬২</item>
+        <item>পৃষ্ঠাসংখ্যা : ৬০</item>
+        <item>পৃষ্ঠাসংখ্যা : ১০৭</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৬</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৬</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৬</item>
+        <item>পৃষ্ঠাসংখ্যা : ৮৮</item>
+        <item>পৃষ্ঠাসংখ্যা : ৭৮</item>
+        <item>পৃষ্ঠাসংখ্যা : ৭৯</item>
+        <item>পৃষ্ঠাসংখ্যা : ৮০</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৬</item>
+        <item>পৃষ্ঠাসংখ্যা : ৯৪</item>
+        <item>পৃষ্ঠাসংখ্যা : ১০৩</item>
+        <item>পৃষ্ঠাসংখ্যা : ৭২</item>
+    </string-array>
+    <string-array name="misir_book_name_english">
+        <item>debi</item>
+        <item>nishithini</item>
+        <item>onnobhubon</item>
+        <item>nishad</item>
+        <item>brihonnola</item>
+        <item>bhoy</item>
+        <item>bipod</item>
+        <item>onish</item>
+        <item>misiraliomimangshitorohoshyo</item>
+        <item>amiebongamra</item>
+        <item>tondrabilash</item>
+        <item>amiemisirali</item>
+        <item>baghbondimisirali</item>
+        <item>hortonishkapon</item>
+        <item>kohenkobikalidash</item>
+        <item>misiralirchoshma</item>
+        <item>misiraliapnikothay</item>
+        <item>misiraliunsolved</item>
+        <item>pufi</item>
+        <item>jokhonnamibeadhar</item>
+    </string-array>
+    <string-array name="misir_chapters">
+        <item>24</item>
+        <item>24</item>
+        <item>12</item>
+        <item>18</item>
+        <item>9</item>
+        <item>12</item>
+        <item>7</item>
+        <item>8</item>
+        <item>8</item>
+        <item>14</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>8</item>
+        <item>6</item>
+        <item>8</item>
+        <item>8</item>
+        <item>12</item>
+        <item>11</item>
+    </string-array>
+
+
+
+    <string-array name="chapter_serial">
+        <item>১</item>
+        <item>২</item>
+        <item>৩</item>
+        <item>৪</item>
+        <item>৫</item>
+        <item>৬</item>
+        <item>৭</item>
+        <item>৮</item>
+        <item>৯</item>
+        <item>১০</item>
+        <item>১১</item>
+        <item>১২</item>
+        <item>১৩</item>
+        <item>১৪</item>
+        <item>১৫</item>
+        <item>১৬</item>
+        <item>১৭</item>
+        <item>১৮</item>
+        <item>১৯</item>
+        <item>২০</item>
+        <item>২১</item>
+        <item>২২</item>
+        <item>২৩</item>
+        <item>২৪</item>
+        <item>২৫</item>
+    </string-array>
+    <string-array name="position">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+
+
+
+
+
+
+
+
+    <string name="born_string">
+        13 November 1948
+        \nKutubpur village
+        \nMymensingh District
+        \nEast Bengal, Dominion of Pakistan
+    </string>
+
+    <string name="died_string">
+        19 July 2012 (aged 63)\nNew York City, United States
+    </string>
+    
+    
+    <string name="edu_string">
+        PhD (polymer chemistry)
+    </string>
+    
+    <string name="alma_string">
+        Dhaka College\nUniversity of Dhaka\nNorth Dakota State University
+    </string>
+    
+    <string name="award_string">
+
+        Bangla Academy Literary Award\nEkushey Padak
+    </string>
+
+    <string name="music_string">
+        Ahmed composed around 40 songs which he used in his films and television dramas. The songs were based on the folk music of the north-eastern part of Bangladesh.\nHis notable singles include -\n\n• Lilabali Lilabali Ghoro Joubothi Shoi Go
+        \n• Pubali Batashey
+        \n• Ekta Chhilo Shonar Konya
+        \n• O Amar Ural Ponkhi Rey
+        \n• Jodi Mon Kadey
+        \n• Ke Porailo Amar Chokh-e Kolonko Kajol
+        \n• Ami Aaj Bhejabo Chokh Somudrer Joley
+        \n• Cholona Brishtitey Bhiji
+        \n• Channi Poshor Raite Jeno Amar Moron Hoy
+        \n• Hablonger Bajarey Giya
+        \n• Konya Nachilo Rey
+    </string>
+
+    <string name="books_string">
+        অঁহক
+        \nঅচিনপুর
+        \nঅতিপ্রাকৃত
+        \nঅদ্ভুত সব উপন্যাস
+        \nঅদ্ভুত সব গল্প
+        \nঅনন্ত অম্বরে
+        \nঅনন্ত নক্ষত্র বীথি
+        \nঅনিল বাগচীর একদিন
+        \nঅনীশ
+        \nঅন্ধকারের গান
+        \nঅন্যদিন
+        \nঅন্যভুবন
+        \nঅপরাহ্ন
+        \nঅপেক্ষা
+        \nঅমানুষ
+        \nঅ্যান্টস এন্ড আদার স্টোরিজ
+        \nঅয়োময়
+        \nআকাশ জোড়া মেঘ
+        \nআগুনের পরশমণি
+        \nআঙুল কাটা জগলু
+        \nআজ আমি কোথাও যাব না
+        \nআজ চিত্রার বিয়ে
+        \nআজ দুপুরে তোমার নিমন্ত্রণ
+        \nআজ হিমুর বিয়ে
+        \nআনন্দ বেদনার কাব্য
+        \nআপনারে আমি খুঁজিয়া বেড়াই
+        \nআমাদের শাদা বাড়ি
+        \nআমার আছে জল
+        \nআমার আপন আঁধার
+        \nআমার ছেলেবেলা
+        \nআমার প্রিয় ভৌতিক গল্প
+        \nআমি এবং আমরা
+        \nআমি এবং কয়েকটি প্রজাপতি
+        \nআমিই মিসির আলি
+        \nআশাবরী
+        \nআসমানীরা তিন বোন
+        \nআয়নাঘর
+        \nইকুয়েশন ফিহা
+        \nইন ব্লিসফুল হেল : নন্দিত নরকে
+        \nইমা
+        \nইলিশ রান্না
+        \nইস্টিশন
+        \nউঠোন পেরিয়ে দুই পা
+        \nউদ্ভট গল্প
+        \nউড়ালপঙ্খি
+        \nএ ফিউ ইউথস ইন দ্যা মুন
+        \nএংগা, বেংগা, চেংগা
+        \nএই আমি
+        \nএই বসন্তে
+        \nএই মেঘ, রৌদ্রছায়া
+        \nএই শুভ্র ! এই
+        \nএইসব দিনরাত্রি
+        \nএকজন মায়াবতী
+        \nএকজন হিমু কয়েকটি ঝিঁঝিঁ পোকা
+        \nএকটি সাইকেল এবং কয়েকটি ডাহুক পাখি
+        \nএকা একা
+        \nএকি কাণ্ড
+        \nএপিটাফ
+        \nএবং হিমু
+        \nএলেবেলে (১ম পর্ব)
+        \nএলেবেলে (২য় পর্ব)
+        \nওমেগা পয়েন্ট
+        \nকবি
+        \nকহেন কবি কালিদাস
+        \nকাক ও কাঠগোলাপ
+        \nকাঠপেন্সিল
+        \nকানী ডাইনী
+        \nকালো যাদুকর
+        \nকিছু শৈশব
+        \nকিছুক্ষণ
+        \nকুটু মিয়া
+        \nকুহক
+        \nকুহুরানী
+        \nকৃষ্ণপক্ষ
+        \nকে কথা কয়?
+        \nকোথাও কেউ নেই
+        \nগৃহত্যাগী জোছনা
+        \nগৌরীপুর জংশন
+        \nচক্ষে আমার তৃষ্ণা
+        \nচলে যায় বসন্তের দিন
+        \nচাঁদের আলোয় কয়েকজন যুবক
+        \nচেরাগের দৈত্য এবং বাবলু
+        \nচৈত্রের দ্বিতীয় দিবস
+        \nছবি বানানোর গল্প
+        \nছায়াবীথি
+        \nছায়াসঙ্গী
+        \nছেলেটা
+        \nছোটদের যত লেখা
+        \nছোটদের সেরা গল্প
+        \nজনম জনম
+        \nজন্ম দিনের উপহার
+        \nজল জোছনা
+        \nজলকন্যা
+        \nজলপদ্ম
+        \nজীবনকৃষ্ণ মেমোরিয়াল হাইস্কুল
+        \nজোছনা ও জননীর গল্প
+        \nটগর এন্ড জেরি
+        \nটু দি উডস ডার্ক এন্ড দীপ
+        \nতন্দ্রাবিলাস
+        \nতারা তিনজন
+        \nতিথির নীল তোয়ালে
+        \nতিন বিচিত্র
+        \nতিনপুরুষ
+        \nতিনি ও সে
+        \nতুমি আমায় ডেকে ছিলে ছুটির নিমন্ত্রণে
+        \nতেতুল বনে জোছনা
+        \nতোমাকে
+        \nতোমাদের এই নগরে
+        \nতোমাদের জন্য ভালোবাসা
+        \nতোমাদের জন্য রূপকথা
+        \nদরজার ওপাশে
+        \nদাঁড়কাকের সংসার কিংবা মাঝে মাঝে তব দেখা পাই
+        \nদারুচিনি দ্বীপ
+        \nদি একসরসিস্ট
+        \nদিঘির জলে কার ছায়া গো
+        \nদিনের শেষে
+        \nদুই দুয়ারী
+        \nদূরে কোথায়
+        \nদেখা না দেখা
+        \nদেবী
+        \nদেয়াল
+        \nদ্বিতীয় মানব
+        \nদ্বৈরথ
+        \nনক্ষত্রের রাত
+        \nনন্দিত নরকে
+        \nনবনী
+        \nনলিনী বাবু বি.এসসি
+        \nনি
+        \nনিউইয়র্কের নীলাকাশে ঝকঝকে রোদ
+        \nনির্বাচিত প্রেমের উপন্যাস : ভালোবেসে যদি সুখ নাহি
+        \nনির্বাচিত ভূতের গল্প
+        \nনির্বাসন
+        \nনিশিকাব্য
+        \nনিশীথিনী
+        \nনিষাদ
+        \nনীল অপরাজিতা
+        \nনীল মানুষ
+        \nনীল হাতি
+        \nনুহাশ এবং আলাদিনের আশ্চর্য চেরাগ
+        \nনৃপতি
+        \nপঞ্চকন্যা
+        \nপরীর মেয়ে মেঘবতী
+        \nপাখি আমার একলা পাখি
+        \nপারাপার
+        \nপারুল ও তিনটি কুকুর
+        \nপায়ের তলায় খড়ম
+        \nপিপলী বেগম
+        \nপুতুল
+        \nপুফি
+        \nপেন্সিলে আঁকা পরী
+        \nপোকা
+        \nপ্রথম প্রহর
+        \nপ্রিয় পদরেখা
+        \nপ্রিয় ভয়ংকর
+        \nপ্রেমের গল্প
+        \nফাউন্টেনপেন
+        \nফিহা সমীকরণ
+        \nফেরা
+        \nফ্লাওয়ার্স অব ফ্লাম
+        \nবনের রাজা
+        \nবলপয়েন্ট
+        \nবসন্ত বিলাপ
+        \nবহুব্রীহি
+        \nবাঘবন্দি মিসির আলি
+        \nবাছাই গল্প
+        \nবাদল দিনের দ্বিতীয় কদম ফুল
+        \nবাদশাহ নামদার
+        \nবাসর
+        \nবিপদ
+        \nবিরহগাঁথা ১
+        \nবিরহগাঁথা ২
+        \nবিরহগাঁথা ৩
+        \nবৃক্ষকথা
+        \nবৃষ্টি ও মেঘমালা
+        \nবৃষ্টি বিলাস
+        \nবৃহন্নলা
+        \nবোকা রাজার সোনার সিংহাসন
+        \nবোকাভূ
+        \nবোতল ভূত
+        \nব্যাঙ কন্যা এলেং
+        \nভূত ভুতং ভূতৌ
+        \nভূত মন্ত্র
+        \nভয়
+        \nমজার ভূত
+        \nমঞ্চ নাটক ১৯৭১
+        \nমধ্যাহ্ন অখণ্ড
+        \nমন্দ্রসপ্তক
+        \nমহাপুরুষ
+        \nমাতাল হাওয়া
+        \nমানবী
+        \nমিসির আলি আনসলভ্‌ড
+        \nমিসির আলি! আপনি কোথায়?
+        \nমিসির আলির অমীমাংসিত রহস্য
+        \nমিসির আলির চশমা
+        \nমীরখাইয়ের অটোগ্রাফ
+        \nমীরার গ্রামের বাড়ী
+        \nমৃন্ময়ী
+        \nমৃন্ময়ীর মন ভালো নেই
+        \nমে ফ্লাওয়ার
+        \nমেঘ বলেছে যাব যাব
+        \nমেঘের ওপর বাড়ি
+        \nমেঘের ছায়া
+        \nম্যাজিক মুনশি
+        \nময়ূরাক্ষী
+        \nযখন গিয়েছে ডুবে পঞ্চমীর চাঁদ
+        \nযখন নামিবে আধাঁর
+        \nযদিও সন্ধ্যা
+        \nযশোহা বৃক্ষের দেশে
+        \nরঙপেন্সিল
+        \nরজনী
+        \nরাক্ষস খোক্কস এবং ভোক্কস
+        \nরাজার কুমার নিনিত
+        \nরাবনের দেশে আমি ও আমরা
+        \nরুমালী
+        \nরূপা
+        \nরূপার পালঙ্ক
+        \nরূপালী দ্বীপ
+        \nরোদনভরা এ বসন্ত
+        \nলাভ ইউ অল
+        \nলিলুয়া বাতাস
+        \nলীলাবতী
+        \nশঙ্খনীল কারাগার
+        \nশীত ও অন্যান্য গল্প
+        \nশুভ্র
+        \nশুভ্র গেছে বনে
+        \nশূন্য
+        \nশ্যামল ছায়া
+        \nশ্রাবণ মেঘের দিন
+        \nসকল কাঁটা ধন্য করে
+        \nসবাই গেছে বনে
+        \nসমুদ্র বিলাস
+        \nসম্রাট
+        \nসাজঘর
+        \nসানাউল্লার মহাবিপদ
+        \nসূর্যের দিন
+        \nসূর্যের দিন : বাংলাদেশে এই প্রথম মুক্তিযুদ্ধভিত্তিক চার রঙা কমিকস্
+        \nসে আসে ধীরে
+        \nসে ও নর্তকী
+        \nসেদিন চৈত্রমাস
+        \nসৌরভ
+        \nস্বপ্ন ও অন্যান্য (মঞ্চ নাটক সমগ্র)
+        \nহরতন ইশকাপন
+        \nহলুদ পরী
+        \nহলুদ হিমু কালো র‌্যাব
+        \nহিজিবিজি
+        \nহিমু
+        \nহিমু এবং একটি রাশিয়ান পরী
+        \nহিমু এবং হার্ভার্ড পিএইচ.ডি বল্টু ভাই
+        \nহিমু মামা
+        \nহিমু রিমান্ডে
+        \nহিমুর আছে জল
+        \nহিমুর একান্ত সাক্ষাৎকার ও অন্যান্য
+        \nহিমুর দ্বিতীয় প্রহর
+        \nহিমুর নীল জোছনা
+        \nহিমুর বাবার কথামালা
+        \nহিমুর মধ্যদুপুর
+        \nহিমুর রূপালী রাত্রি
+        \nহিমুর হাতে কয়েকটি নীল পদ্ম
+        \nহুমায়ূন আহমেদের হাতে ৫টি নীল পদ্ম
+        \nহোটেল গ্রেভার ইন
+        \n১৯৭১\n
+    </string>
+
+</resources>

@@ -1,0 +1,23 @@
+@font-face
+{
+    src: url(tatsambook.ttf);
+    font-family: tatsam;
+}
+
+@font-face
+{
+    src: url(tatsambold.ttf);
+    font-family: tatsambold;
+}
+
+p
+{
+    font-family: tatsam;
+}
+
+.chapters
+{
+    color : #272343;
+    font-family: tatsambold;
+}
+

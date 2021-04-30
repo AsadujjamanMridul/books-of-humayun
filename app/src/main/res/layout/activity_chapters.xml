@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Chapters">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/sharedCover"
+            android:transitionName="shared_cover"
+            android:layout_marginTop="10dp"
+            android:layout_width="96dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cover_daruchinidip"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/sharedTitle"
+                android:transitionName="shared_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="দারুচিনি দ্বীপ"
+                android:textSize="18sp"
+                android:textColor="@color/dark"
+                android:fontFamily="@font/fazlaysejuti"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chapter_recyclerview"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

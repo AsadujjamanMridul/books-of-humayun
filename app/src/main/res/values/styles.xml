@@ -1,0 +1,90 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/titilliumwebsemibold</item>
+        <item name="android:focusable">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeNavigation" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/titilliumwebsemibold</item>
+        <item name="android:focusable">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeShuvro" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/titilliumwebsemibold</item>
+        <item name="colorPrimary">@color/shuvro</item>
+        <item name="colorPrimaryDark">@color/shuvro</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppThemeHimu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/titilliumwebsemibold</item>
+        <item name="colorPrimary">@color/himu</item>
+        <item name="colorPrimaryDark">@color/himu</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppThemeMisir" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/titilliumwebsemibold</item>
+        <item name="colorPrimary">@color/misir</item>
+        <item name="colorPrimaryDark">@color/misir</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppThemeNovel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/titilliumwebsemibold</item>
+        <item name="colorPrimary">@color/novel</item>
+        <item name="colorPrimaryDark">@color/novel</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppThemeScience" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/titilliumwebsemibold</item>
+        <item name="colorPrimary">@color/science</item>
+        <item name="colorPrimaryDark">@color/science</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppThemeOther" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/titilliumwebsemibold</item>
+        <item name="colorPrimary">@color/other</item>
+        <item name="colorPrimaryDark">@color/other</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppThemeChapters" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/tatsammedium</item>
+        <item name="android:focusable">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="DarkSwitch">
+        <item name="colorControlActivated">@color/dark2</item>
+    </style>
+    
+
+</resources>

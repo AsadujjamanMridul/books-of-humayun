@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/preference"
+            android:title="Preference"
+            android:icon="@drawable/settings_1_"
+            />
+
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item android:title="Feedback"
+                android:icon="@drawable/feedback"
+                />
+
+            <item android:title="Contact Us"
+                android:icon="@drawable/chat"/>
+
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="Share">
+        <menu>
+            <item android:title="About"
+                android:icon="@drawable/information"
+                />
+
+            <item android:title="Rate This App"
+                android:icon="@drawable/star"/>
+
+            <item android:title="More Apps"
+                android:icon="@drawable/app"/>
+
+        </menu>
+
+    </item>
+
+</menu>

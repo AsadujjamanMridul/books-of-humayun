@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="   Home"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        app:cnb_backgroundColor="#80364364"
+        />
+
+    <item
+        android:id="@+id/author"
+        android:title="   Author"
+        android:icon="@drawable/ic_autor"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        app:cnb_backgroundColor="#80364364"
+        />
+
+    <item
+        android:id="@+id/dev"
+        android:title="   Dev"
+        android:icon="@drawable/ic_coding"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        app:cnb_backgroundColor="#80364364"
+        />
+
+
+
+</menu>

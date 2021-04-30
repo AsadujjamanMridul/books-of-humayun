@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary2">#141932</color>
+    <color name="colorPrimaryDark2">#141932</color>
+
+    <color name="colorPrimary">#0e2431</color>
+    <color name="colorPrimaryDark">#0e2431</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="dark2">#272343</color>
+    <color name="dark3">#141932</color>
+    <color name="dark">#273238</color>
+    <color name="transparentdark">#99141932</color>
+    <color name="white">#ffffff</color>
+    <color name="lightblue">#e3f6f5</color>
+    <color name="blue">#bae8e8</color>
+
+
+    <color name="shuvro">#64DCAA</color>
+    <color name="himu">#FCAF25</color>
+    <color name="transparenthimu">#272343</color>
+    <color name="misir">#4C55AD</color>
+    <color name="novel">#F53319</color>
+    <color name="science">#273238</color>
+    <color name="other">#BF6D49</color>
+
+
+    <color name="cnb">#141932</color>
+
+    <color name="notu">#0e2431</color>
+    <color name="notun2">#C1CBD8</color>
+
+
+    <color name="ripple">#59272343</color>
+
+</resources>

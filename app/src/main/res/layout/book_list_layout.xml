@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft= "15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="8dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/coverImageView"
+            android:layout_width="80dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="5dp"
+            android:transitionName="shared_cover"
+            android:src="@drawable/cover_daruchinidip"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:paddingEnd="15dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bookNameTextView"
+                android:transitionName="shared_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="15dp"
+                android:text="দারুচিনি দ্বীপ"
+                android:textSize="18sp"
+                android:textColor="@color/dark"
+                android:fontFamily="@font/fazlaysejuti"/>
+
+            <TextView
+                android:id="@+id/publishYearTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="দারুচিনি দ্বীপ"
+                android:textSize="11sp"
+                android:textColor="#80272343"
+                android:fontFamily="@font/tatsammedium"/>
+
+            <TextView
+                android:id="@+id/pageNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:text="দারুচিনি দ্বীপ"
+                android:textSize="11sp"
+                android:textColor="#80272343"
+                android:fontFamily="@font/tatsammedium"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
